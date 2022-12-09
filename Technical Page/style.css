@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(229, 229, 229);
+    margin: 40px;
+    text-align: justify;
+    color: #02427a;
+} 
+
+div.main-body {
+	display: grid;
+	grid-template-columns: minmax(300px , auto)1fr;
+	grid-template-areas: "navbar mainContent";
+	grid-gap: 20px;
+}
+
+#navbar {
+	grid-area: navbar;
+	position: fixed;
+}
+
+#navbar a {
+	display: block;
+	border: 1px solid blue;
+    padding: 10px;
+	margin: 10px 0;
+	text-decoration: none;
+	color: blue;
+    background-color: rgb(179, 231, 179);
+}
+
+#main-doc {
+	grid-area: mainContent;
+}
+
+header {
+	font-size: 1.5rem;
+	font-weight: bold;
+    color: crimson;
+}
+
+code {
+	background-color: #CCC;
+	display: block;
+	padding: 20px;
+}
+
+.h_code {
+    background-color: rgb(213, 212, 212);
+    padding: 20px;
+    border-radius: 10px;
+}

@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 50%;
+    margin: auto;
+  }
+  
+  .profile {
+    float: left;
+    width: 250px;
+    height: 700px;
+    background: rgb(118, 159, 126);
+    color: rgb(243, 243, 243);
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .edu {
+    float: left;
+    padding: 20px;
+    background-color: #f1f1f1;
+    height: 700px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }

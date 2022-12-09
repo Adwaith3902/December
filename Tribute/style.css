@@ -1,0 +1,41 @@
+@font-face
+{
+    font-family: base-font;
+    src:url(../fonts/Helvetica.ttf);
+}    
+h1 {
+    text-align: center;
+    color: rgb(181, 72, 72);
+}
+
+body {
+    background-color: rgb(203, 201, 201);
+    margin: 100px;
+    position: relative;
+    border-color: white ;
+}
+
+img{
+    width: 150px;height: 180px;
+}
+
+.caption{
+    font-size: smaller;
+    font-family: 'helvetica';
+    font-style: italic;
+    width: 700px;
+    text-align: justify;
+    margin-left: 310px;
+}
+
+a{
+   text-decoration: none;
+}
+
+p {
+    width: 800px;
+    color: rgb(0, 0, 0);
+    font-family: Helvetica;
+    text-align: justify;
+    margin: auto;
+}
